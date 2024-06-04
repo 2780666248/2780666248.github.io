@@ -1,0 +1,1 @@
+import{r as a}from"./request-DHRn8lua.js";const s=e=>a.get("/backend/tag/search",{params:{key:e}}),c=()=>a.get("/backend/tag/page"),g=e=>a.delete(`/backend/tag/${e}`),r=e=>a.post("/backend/tag/",e);export{r as a,g as d,c as g,s};

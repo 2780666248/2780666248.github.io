@@ -1,0 +1,1 @@
+import{r as t}from"./request-DHRn8lua.js";const o=e=>t.get("/backend/category/page",{params:e}),s=e=>t.post("/backend/category/add",e),c=e=>t.delete(`/backend/category/${e}`),g=()=>t.get("/backend/category/list");export{o as a,s as b,c as d,g};
