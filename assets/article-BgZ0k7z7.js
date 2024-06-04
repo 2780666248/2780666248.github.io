@@ -1,1 +1,0 @@
-import{r as e}from"./request-DHRn8lua.js";function a(t){return e.get("/article/detail",{params:{articleId:t}})}function i(t){return e.get("/article/list",{params:t})}function s(t){return e.get("/article/archive/list",{params:t})}export{s as a,a as b,i as g};
